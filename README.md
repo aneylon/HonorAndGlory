@@ -10,6 +10,8 @@ Run `ng serve --open` / `ng serve -o` to run the development server and automati
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+[CLI Reference](https://angular.io/cli)
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.

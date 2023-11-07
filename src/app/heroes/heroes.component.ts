@@ -22,12 +22,12 @@ export class HeroesComponent {
   // hero: Hero = { id: 1, name: 'Windstorm' };
   // heroes = HEROES;
   heroes: Hero[] = [];
-  selectedHero?: Hero;
+  // selectedHero?: Hero;
 
-  onSelect(hero: Hero) {
-    this.selectedHero = hero;
-    this.messageService.add(`HeroesComponent: selected hero id=${hero.id}`);
-  }
+  // onSelect(hero: Hero) {
+  //   this.selectedHero = hero;
+  //   this.messageService.add(`HeroesComponent: selected hero id=${hero.id}`);
+  // }
 
   getHeroes(): void {
     this.heroService.getHeroes().subscribe((heroes) => (this.heroes = heroes));

@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // title = 'Honor and Glory';
   title = 'Tour of Heroes';
+  values = ['one', 'two', 'three'];
+  header = 'header test';
 }

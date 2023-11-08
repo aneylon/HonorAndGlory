@@ -9,9 +9,10 @@ import { UnitComponent } from './components/warcry/unit/unit.component';
 import { MessagesComponent } from './components/messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RandomTableComponent } from './shared/random-table/random-table.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroesComponent, HeroDetailComponent, UnitComponent, MessagesComponent, DashboardComponent],
+  declarations: [AppComponent, HeroesComponent, HeroDetailComponent, UnitComponent, MessagesComponent, DashboardComponent, RandomTableComponent],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

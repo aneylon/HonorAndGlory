@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { RandomNumberBelow } from '../random';
 
 @Component({
   selector: 'app-random-table',
@@ -12,6 +13,6 @@ export class RandomTableComponent {
 
   randomRoll(): void {
     let numberOfValues: number = this.values?.length ? this.values.length : 0;
-    this.selectedValue = Math.floor(Math.random() * numberOfValues);
+    this.selectedValue = RandomNumberBelow(numberOfValues);
   }
 }

@@ -25,7 +25,15 @@ import { InMemoryDataService } from './in-memory-data.service';
     DashboardComponent,
     RandomTableComponent,
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
+      dataEncapsulation: false,
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -14,6 +14,8 @@ import { RandomTableComponent } from './shared/random-table/random-table.compone
 
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { PendragonComponent } from './components/pendragon/pendragon.component';
+import { MythicBastionlandComponent } from './components/mythic-bastionland/mythic-bastionland.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     MessagesComponent,
     DashboardComponent,
     RandomTableComponent,
+    PendragonComponent,
+    MythicBastionlandComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { PendragonComponent } from './components/pendragon/pendragon.component';
 import { MythicBastionlandComponent } from './components/mythic-bastionland/mythic-bastionland.component';
+import { WarcryComponent } from './components/warcry/warcry.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { MythicBastionlandComponent } from './components/mythic-bastionland/myth
     RandomTableComponent,
     PendragonComponent,
     MythicBastionlandComponent,
+    WarcryComponent,
   ],
   imports: [
     BrowserModule,

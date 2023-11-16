@@ -17,6 +17,7 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { PendragonComponent } from './components/pendragon/pendragon.component';
 import { MythicBastionlandComponent } from './components/mythic-bastionland/mythic-bastionland.component';
 import { WarcryComponent } from './components/warcry/warcry.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { WarcryComponent } from './components/warcry/warcry.component';
     PendragonComponent,
     MythicBastionlandComponent,
     WarcryComponent,
+    HeroSearchComponent,
   ],
   imports: [
     BrowserModule,

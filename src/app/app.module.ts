@@ -18,6 +18,7 @@ import { PendragonComponent } from './components/pendragon/pendragon.component';
 import { MythicBastionlandComponent } from './components/mythic-bastionland/mythic-bastionland.component';
 import { WarcryComponent } from './components/warcry/warcry.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { SpaceStationZeroComponent } from './components/space-station-zero/space-station-zero.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     MythicBastionlandComponent,
     WarcryComponent,
     HeroSearchComponent,
+    SpaceStationZeroComponent,
   ],
   imports: [
     BrowserModule,

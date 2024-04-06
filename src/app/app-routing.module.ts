@@ -6,12 +6,14 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { WarcryComponent } from './components/warcry/warcry.component';
 import { MythicBastionlandComponent } from './components/mythic-bastionland/mythic-bastionland.component';
 import { PendragonComponent } from './components/pendragon/pendragon.component';
+import { SpaceStationZeroComponent } from './components/space-station-zero/space-station-zero.component';
 
 const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'warcry', component: WarcryComponent },
   { path: 'mythicbastionland', component: MythicBastionlandComponent },
   { path: 'pendragon', component: PendragonComponent },
+  { path: 'spaceStationZero', component: SpaceStationZeroComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },

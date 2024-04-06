@@ -1,0 +1,10 @@
+<h2>{{ header }}</h2>
+<button (click)="randomRoll()">Roll</button>
+<ul>
+  <li
+    *ngFor="let value of values; index as i"
+    [class.selected]="i === selectedValue"
+  >
+    {{ value }} {{ i }}
+  </li>
+</ul>

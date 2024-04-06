@@ -4,11 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve --open` / `ng serve -o` to run the development server and automatically open in the browser.
+Run `ng serve --open` / `ng s -o` to run the development server and automatically open in the browser.
 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+[CLI Reference](https://angular.io/cli)
 
 ## Build
 

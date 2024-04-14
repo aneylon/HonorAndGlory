@@ -19,6 +19,8 @@ import { MythicBastionlandComponent } from './components/mythic-bastionland/myth
 import { WarcryComponent } from './components/warcry/warcry.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { SpaceStationZeroComponent } from './components/space-station-zero/space-station-zero.component';
+import { NarrativeRosterComponent } from './components/warcry/narrative-roster/narrative-roster.component';
+import { EncampmentRosterComponent } from './components/warcry/encampment-roster/encampment-roster.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { SpaceStationZeroComponent } from './components/space-station-zero/space
     WarcryComponent,
     HeroSearchComponent,
     SpaceStationZeroComponent,
+    NarrativeRosterComponent,
+    EncampmentRosterComponent,
   ],
   imports: [
     BrowserModule,

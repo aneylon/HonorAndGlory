@@ -21,6 +21,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { SpaceStationZeroComponent } from './components/space-station-zero/space-station-zero.component';
 import { NarrativeRosterComponent } from './components/warcry/narrative-roster/narrative-roster.component';
 import { EncampmentRosterComponent } from './components/warcry/encampment-roster/encampment-roster.component';
+import { MordheimComponent } from './components/mordheim/mordheim.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { EncampmentRosterComponent } from './components/warcry/encampment-roster
     SpaceStationZeroComponent,
     NarrativeRosterComponent,
     EncampmentRosterComponent,
+    MordheimComponent,
   ],
   imports: [
     BrowserModule,
